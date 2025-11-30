@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
+    "./button": {
+      "react-native": "./src/button.native.tsx",
+      "default": "./src/button.tsx"
+    },
     "./*": "./src/*.tsx"
   },
   "scripts": {
@@ -17,6 +21,7 @@
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
     "eslint": "^9.39.1",
+    "react-native": "^0.81.5",
     "typescript": "5.9.2"
   },
   "dependencies": {
