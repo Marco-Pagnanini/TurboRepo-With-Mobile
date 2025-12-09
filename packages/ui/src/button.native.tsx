@@ -1,3 +1,5 @@
+"use client";
+
 import { ReactNode } from "react";
 import { TouchableOpacity, Text, StyleSheet, Alert } from "react-native";
 import { colors } from "@repo/colors";
@@ -12,7 +14,7 @@ export const Button = ({ children, className, appName }: ButtonProps) => {
     return (
         <TouchableOpacity
             style={styles.button}
-            onPress={() => Alert.alert(`Hello from your ${appName} app!`)}
+            onPress={() => console.log(appName)}
         >
             <Text style={styles.text}>{children}</Text>
         </TouchableOpacity>

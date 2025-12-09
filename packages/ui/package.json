@@ -5,7 +5,7 @@
   "exports": {
     "./button": {
       "react-native": "./src/button.native.tsx",
-      "default": "./src/button.tsx"
+      "default": "./src/button.native.tsx"
     },
     "./*": "./src/*.tsx"
   },
