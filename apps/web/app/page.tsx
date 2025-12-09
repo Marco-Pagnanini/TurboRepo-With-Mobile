@@ -9,6 +9,7 @@ export default function Home() {
         <div className={styles.page}>
             <Button appName="web" >
                 <p>Ciao</p>
+                <p>CIAOOO</p>
             </Button>
         </div>
     );
